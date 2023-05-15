@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal PortFolio Website</title>
     <link rel="stylesheet" href="style.css">
+
+    <!--- icons --->
+    <script src="https://kit.fontawesome.com/6283a3899a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -45,9 +48,9 @@
                         aspernatur!
                     </p>
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" onmouseenter="opentab('skills')">Skills</p>
+                        <p class="tab-links" onmouseenter="opentab('experience')">Experience</p>
+                        <p class="tab-links" onmouseenter="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
@@ -76,6 +79,43 @@
         </div>
     </div>
     <!---------Services-------->
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">My Services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime delectus eligendi facere temporibus cum aperiam adipisci.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime delectus eligendi facere temporibus cum aperiam adipisci.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime delectus eligendi facere temporibus cum aperiam adipisci.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <script src="index.js"></script>
 </body>
