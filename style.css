@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+/* para fazer a âncora com link */
+hmtl {
+    scroll-behavior: smooth;
+}
 
 body {
     background: #080808;
@@ -17,6 +21,8 @@ body {
     background-image: url(images/background.png);
     background-size: cover;
     background-position: center;
+    /* deixa o background fixo no fundo */
+    background-attachment: fixed, scroll;
 }
 
 .container {
