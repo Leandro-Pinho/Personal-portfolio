@@ -6,7 +6,7 @@ Um Portfólio profissional para apresentação do trabalho.
 
 É um Portfólio proficional mostrando todos os serviços e a qualificação para o serviço, com CV podendo ser baixado e formulario para entrar em contato e mandar uma mensagem.
 
-![](gifs/Portifolio.gif)
+![](gifs/)
 
 
 # 🛠️ Abrir e rodar o projeto
